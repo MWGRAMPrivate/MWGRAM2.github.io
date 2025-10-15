@@ -1,0 +1,35 @@
+/* Token / Vision card */
+.card {
+  max-width: 900px;
+  margin: 20px auto;
+  background: #ffffff;
+  padding: 22px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  color: #1f2933;
+}
+
+.card h2 {
+  color: #0f766e; /* green accent */
+  margin-top: 0;
+}
+
+.card .contract code,
+.card p code {
+  display: inline-block;
+  background: #f3f4f6;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-family: monospace;
+}
+
+.card a {
+  color: #0f766e;
+  text-decoration: underline;
+}
+
+.card hr {
+  border: none;
+  border-top: 1px solid #eef2f6;
+  margin: 16px 0;
+}
